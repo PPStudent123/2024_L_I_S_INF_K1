@@ -4,7 +4,7 @@ deps:
 lint:
 	flake8 hello_world test
 run:
-	pyhthon main.py
+	python main.py
 .PHONY: test
 test:
-	PHTHONPATH=. py.test --verbose -s
+	PYTHONPATH=. py.test --verbose -s
